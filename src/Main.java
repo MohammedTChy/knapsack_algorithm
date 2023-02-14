@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         while (true) {
-            int n = sc.nextInt();
+            int n = scan.nextInt();
             if (n == 0) {
                 break;
             }
@@ -12,7 +12,7 @@ public class Main {
             int sum = 0;
             int[] items = new int[n];
             for (int i = 0; i < n; i++) {
-                items[i] = sc.nextInt();
+                items[i] = scan.nextInt();
                 sum += items[i];
             }
 
